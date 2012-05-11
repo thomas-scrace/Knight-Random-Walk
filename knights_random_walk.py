@@ -1,11 +1,13 @@
-#Knight's Random Walk Puzzle Solution
-#Author: Thomas Scrace <tom@scrace.org>
-#Date: 10/05/2012
+# Knight's Random Walk Puzzle Solution
+# Author: Thomas Scrace <tom@scrace.org>
+# Date: 10/05/2012
 
 '''
 Start a knight at a corner square of an otherwise-empty chessboard. Move the knight at random by choosing uniformly from the legal knight-moves at each step. What is the mean number of moves until the knight returns to the starting square?
 
 Source: http://www.johndcook.com/blog/2012/05/08/a-knights-random-walk/
+
+The print_board routine isn't strictly necessary to solve the problem, but I include it anyway as a delightful bonus!
 '''
 
 import random
